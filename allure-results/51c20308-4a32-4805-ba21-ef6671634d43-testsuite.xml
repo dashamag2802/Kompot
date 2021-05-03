@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1620078648644' stop='1620078648831'>
+    <name>API tests for registration and login pages</name>
+    <title>API tests for registration and login pages</title>
+    <test-cases>
+        <test-case start='1620078648644' status='passed' stop='1620078648829'>
+            <name>Get Admin token</name>
+            <title>Get Admin token</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

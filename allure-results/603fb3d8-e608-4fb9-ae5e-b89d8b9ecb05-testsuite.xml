@@ -1,0 +1,123 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1620076891406' stop='1620076892291'>
+    <name>API tests for registration and login pages</name>
+    <title>API tests for registration and login pages</title>
+    <test-cases>
+        <test-case start='1620076891406' status='passed' stop='1620076891595'>
+            <name>Get Admin token</name>
+            <title>Get Admin token</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1620076891597' status='passed' stop='1620076891782'>
+            <name>Test 1 - Should login with existing credentials</name>
+            <title>Test 1 - Should login with existing credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1620076891782' status='passed' stop='1620076891997'>
+            <name>Test 2 - Should registered New User with proper credentials</name>
+            <title>Test 2 - Should registered New User with proper credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1620076891997' status='passed' stop='1620076892221'>
+            <name>Login New User to get ID and Name</name>
+            <title>Login New User to get ID and Name</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1620076892221' status='passed' stop='1620076892246'>
+            <name>Test 3 - Should check if New User was created by ID</name>
+            <title>Test 3 - Should check if New User was created by ID</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1620076892246' status='passed' stop='1620076892262'>
+            <name>Test 4 - Should delete New User by ID</name>
+            <title>Test 4 - Should delete New User by ID</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1620076892262' status='broken' stop='1620076892289'>
+            <name>Test 5 - Should check if New User was deleted by ID</name>
+            <title>Test 5 - Should check if New User was deleted by ID</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps>
+                <step start='1620076892278' status='broken' stop='1620076892288'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Request failed with status code 404</message>
+                <stack-trace>Error: Request failed with status code 404
+                    at createError (C:\Users\dasha\OneDrive\Documents\IT QA7\Kompot\TestApi\node_modules\axios\lib\core\createError.js:16:15)
+                    at settle (C:\Users\dasha\OneDrive\Documents\IT QA7\Kompot\TestApi\node_modules\axios\lib\core\settle.js:17:12)
+                    at IncomingMessage.handleStreamEnd (C:\Users\dasha\OneDrive\Documents\IT QA7\Kompot\TestApi\node_modules\axios\lib\adapters\http.js:260:11)
+                    at IncomingMessage.emit (events.js:327:22)
+                    at IncomingMessage.EventEmitter.emit (domain.js:483:12)
+                    at endReadableNT (_stream_readable.js:1220:12)
+                    at processTicksAndRejections (internal/process/task_queues.js:84:21)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,29 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf.js",
+    "testMocha": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^7.5.3",
+    "@wdio/cli": "^7.5.3",
+    "@wdio/dot-reporter": "^7.5.3",
+    "@wdio/local-runner": "^7.5.5",
+    "@wdio/mocha-framework": "^7.5.3",
+    "@wdio/selenium-standalone-service": "^7.5.3",
+    "@wdio/spec-reporter": "^7.5.3",
+    "axios": "^0.21.0",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "@babel/cli": "^7.12.8",
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.7",
+    "@babel/register": "^7.12.1"
+  }
+}
